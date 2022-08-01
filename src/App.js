@@ -5,6 +5,7 @@ import Input from './components/Input/Input';
 import Toggle from './components/Toggle/Toggle';
 import ButtonClass from './components/ButtonClass/ButtonClass';
 import Card from './components/Card/Card';
+import Form from './components/Form/Form';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
   setTimeout(() => (mode = 'off'), 5000)
   return (
     <div className="App">
+      <Form />
       <Card />
       <br />
       <Toggle
