@@ -9,7 +9,7 @@ class Card extends Component {
     }
 
     onChangeColor = () => {
-        console.log(this.state.bgColor);
+        // console.log(this.state.bgColor);
         this.setState({ bgColor: 'yellow' })
     }
 
@@ -18,7 +18,7 @@ class Card extends Component {
     }
 
     render() {
-        console.log(this.state.bgColor);
+        // console.log(this.state.bgColor);
         return (
             <Wrapper bgColor={this.state.bgColor}>
                 <ButtonClass title='Change Background'
