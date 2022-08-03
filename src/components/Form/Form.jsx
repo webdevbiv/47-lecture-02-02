@@ -29,7 +29,7 @@ class Form extends Component {
         // this.setState({ user: this.state.users.push() })
     }
     deleteUser = (user) => {
-        this.setState({ users: this.state.users.filter((personName) => personName !== user) })
+        // this.setState({ users: this.state.users.filter((personName) => personName !== user) })
     }
 
     render() {
